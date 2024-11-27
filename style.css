@@ -1,0 +1,490 @@
+body {
+  overflow-x: hidden;
+}
+
+header img {
+  width: 90px;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero-title {
+  background-color: rgba(24, 24, 24, 0.051);
+}
+
+.hero-img {
+  position: relative;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 680px;
+}
+
+#hero img {
+  height: 680px;
+  position: absolute;
+  z-index: -1;
+  opacity: 1;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#fitur {
+  margin-top: 10rem !important;
+  margin-bottom: 8rem !important;
+}
+
+#fitur h2 {
+  font-size: 2.5rem;
+}
+
+#fitur p {
+  font-size: 1.2rem;
+}
+
+#fitur .row:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+#fitur button {
+  font-size: 1.2rem;
+}
+
+.feature-card {
+  width: 30rem;
+}
+
+
+#testimoni h1 {
+  margin-top: 5rem !important;
+}
+
+#testimoni p {
+  font-size: 1.2rem;
+}
+
+#testimoni button {
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer li {
+  margin: 0.5rem 0 !important;
+}
+
+footer img {
+  width: 40px;
+}
+
+
+.gallery-card {
+  width: 22.5rem;
+}
+
+
+#gallery img {
+  width: 100% !important;
+}
+
+#gallery-img {
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-galerry {
+  width: 34rem;
+  height: 35rem;
+  object-fit: cover !important;
+}
+.img-galerry img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: bottom;
+}
+
+.chair img {
+  object-position: center;
+}
+
+#form {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.innovation-img {
+  height: max-content;
+}
+
+#innovation img {
+  width: 100%;
+  height: 550px;
+  object-position: center;
+  object-fit: cover;
+}
+
+#innovation a {
+  width: 250px;
+}
+
+.contact {
+  font-size: 5rem;
+}
+
+.contact-text {
+  background-color: rgba(24, 24, 24, 0.051);
+}
+
+.contact-image {
+  overflow: hidden;
+  height: 600px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#contact iframe {
+  width: 100%;
+}
+
+#contact a {
+  width: 200px;
+}
+
+#form p {
+  font-size: 1.2rem;
+}
+
+footer ul {
+  font-size: 1.5rem;
+}
+
+footer li {
+  font-size: 1rem;
+}
+
+footer img {
+  width: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  #hero {
+    height: 575px;
+    overflow: hidden;
+  }
+
+  .hero-img {
+    object-position: center;
+    height: 575px;
+  }
+  #hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .feature-card {
+    width: 20rem;
+  }
+
+  #fitur {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+  }
+
+  #fitur button {
+    font-size: 1rem;
+  }
+
+  #testimoni {
+    margin: 0 !important;
+  }
+
+  #testimoni p {
+    font-size: 1.5rem !important;
+  }
+
+  .gallery-card {
+    width: 19rem;
+    height: 350px;
+  }
+
+  .gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img-galerry {
+    width: 28.5rem;
+  }
+
+  #innovation h1 {
+    font-size: 2rem;
+  }
+
+  #innovation p {
+    font-size: 0.9rem;
+  }
+
+  #innovation a {
+    font-size: 1rem;
+  }
+
+  footer h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    height: 500px;
+  }
+
+  .hero-img {
+    height: 500px;
+  }
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero p {
+    font-size: 0.8rem;
+  }
+
+  #hero a {
+    font-size: 0.8rem;
+  }
+
+  #fitur h2 {
+    font-size: 1.5rem;
+  }
+
+  #fitur p {
+    font-size: 0.8rem;
+  }
+
+  #fitur button {
+    font-size: 0.8rem;
+  }
+
+  #testimoni {
+    margin-bottom: 3rem !important;
+  }
+
+  #testimoni h1 {
+    font-size: 1.5rem;
+  }
+
+  #testimoni p {
+    font-size: 1rem !important;
+  }
+
+  .gallery-card {
+    width: 14rem;
+    height: 300px;
+  }
+
+  .img-galerry {
+    width: 21rem;
+    height: 25rem;
+  }
+
+  #innovation h1 {
+    font-size: 1.5rem;
+  }
+
+  #innovation p {
+    font-size: 0.8rem;
+  }
+
+  #innovation a {
+    width: 150px;
+    height: 30px;
+    font-size: 0.6rem;
+  }
+
+  #innovation img {
+    height: 350px;
+  }
+
+  #contact iframe {
+    height: 250px;
+  }
+
+  #contact h1 {
+    font-size: 2rem;
+  }
+
+  #contact h5 {
+    font-size: 1rem;
+  }
+
+  #contact a {
+    width: 150px;
+
+    font-size: 0.8rem;
+  }
+
+  .wa {
+    width: 40px;
+  }
+
+  .contact-image {
+    height: 400px;
+  }
+
+  #form h1 {
+    font-size: 1.8rem;
+  }
+
+  #form {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #form p {
+    font-size: 0.8rem;
+  }
+
+  footer h1 {
+    font-size: 2rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  footer ul {
+    font-size: 1rem !important;
+  }
+
+  footer li {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header img {
+    width: 80px;
+  }
+
+  #hero {
+    height: max-content;
+  }
+
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+
+  #hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #hero a {
+    font-size: 0.7rem;
+  }
+
+  .hero-title {
+    height: max-content;
+    flex-direction: column-reverse;
+  }
+
+  .hero-img {
+    height: 500px;
+  }
+
+  .hero-text {
+    height: max-content;
+  }
+
+  #fitur {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #fitur button {
+    width: 180px !important;
+  }
+
+  #testimoni h1 {
+    font-size: 1.4rem;
+    margin-top: 2rem !important;
+  }
+
+  #testimoni p {
+    font-size: 0.8rem !important;
+  }
+
+  #testimoni {
+    margin-bottom: 2rem !important;
+  }
+
+  .gallery-card {
+    width: 100%;
+  }
+
+  #innovation {
+    margin-top: 4rem !important;
+  }
+
+  #innovation a {
+    width: 200px;
+    font-size: 0.7rem;
+  }
+
+  #innovation img {
+    height: 250px;
+  }
+
+  .innovation-reverse {
+    flex-direction: column-reverse;
+  }
+
+  #contact h1 {
+    font-size: 1.5rem;
+  }
+
+  .wa {
+    width: 30px;
+  }
+
+  #form {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  footer h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  footer ul {
+    padding-left: 1rem;
+  }
+
+  footer p {
+    margin: 1rem 0;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
